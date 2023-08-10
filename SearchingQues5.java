@@ -14,7 +14,7 @@ public class SearchingQues5 {
             return false;
         }
         int sqrt = (int) Math.sqrt(num);
-        return sqrt * sqrt == num;
+        return (sqrt * sqrt) == num;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
