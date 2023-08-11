@@ -10,11 +10,9 @@ import java.util.*;
 public class NumberSys5 {
     public static int oddOccurrance(int[] arr){
         int result = 0;
-
         for (int num : arr) {
             result = result ^ num;
         }
-
         return result;
     }
     public static void main(String[] args) {
